@@ -1,5 +1,8 @@
 # .gitignore
 
+# System
+.DS_Store
+
 # Python
 *.py[oc]
 __pycache__/
@@ -19,3 +22,13 @@ build/
 dist/
 *.so
 out*/
+
+# IDE
+.vscode/
+.idea/
+
+# Project
+.venv/
+
+# Environment
+.env
